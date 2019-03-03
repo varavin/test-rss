@@ -1,0 +1,14 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+index:
+    path: /
+    controller: App\Controller\SiteController::index
+
+rss:
+    path: /rss
+    controller: App\Controller\SiteController::rss
+
+register:
+    path: /register
+    controller: App\Controller\SiteController::register
